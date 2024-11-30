@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yashmika">
+    <title>yashmika - programming</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                  <h1>programming</h1>
+            </ul>
+        </nav>
+    </header>
+
+       <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Arduino Projects</h2>
+        <div class="project-item">
+            <h3>Blinking LED</h3>
+            <p>first project.</p>
+            <p><a href="https://www.mediafire.com/folder/4wm8qysvl4y71/1.Blinking_LED" class="btn"><b>view project</b></a></p>
+        </div>
+        <div class="project-item">
+            <h3>Door Alarm</h3>
+            <p>second project.</p>
+            <p><a href="https://www.mediafire.com/folder/n494y7o360x72/3.+Door+Alarm" class="btn"><b>view project</b></a></p>
+        </div>
+        <div class="project-item">
+            <h3>AutoFan</h3>
+            <p>third project.</p>
+            <p><a href="https://www.mediafire.com/folder/grcus872aeqrx/4.+AutoFan" class="btn"><b>view project</b></a></p>
+        </div>
+        <div class="project-item">
+            <h3>Using LDR</h3>
+            <p>fourth project.</p>
+            <p><a href="https://www.mediafire.com/folder/qlb1bka20emzz/2._Using_LDR" class="btn"><b>view project</b></a></p>
+        </div>
+        <div class="project-item">
+            <h3>PIR Sensor</h3>
+            <p>fifth project.</p>
+            <p><a href="https://www.mediafire.com/folder/lrgcndrd4byko/5.PIR+Sensor" class="btn"><b>view project</b></a></p>
+        </div>
+        <div class="project-item">
+            <h3>Ultrasonic</h3>
+            <p>sixth project.</p>
+            <p><a href="https://www.mediafire.com/folder/mix3navpzt6y6/6Ultrasonic" class="btn"><b>view project</b></a></p>
+        </div>
+
+    </section>
+
+        <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Yashmika. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #111; /* Dark header */
+    color: #fff;
+    padding: 40px 0;  /* Increase padding for more space */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 3rem; /* Increase the font-size to make the title bigger */
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;  /* Increase the margin for better spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem; /* Increase font-size for better readability */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4a261; /* Hover effect */
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffA500;
+    color: #111;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+/* Section Styling */
+.credentials, .services, .projects, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.credentials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.credentials li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+}
+
+</style>
+
+<style>
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #000;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f4a261;
+}
+
+.project-item {
+    background-color: #333;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Hover effect on project items */
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+}
+
+</style>
+
+<style>
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #f4a261;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.contact .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f4a261;
+    color: #111;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #e76f51;
+}
+
+</style>
